@@ -1,0 +1,26 @@
+
+.horas{
+  float: right;
+  margin-right: 15px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  height: 350px;
+  border-radius: 3px;
+  
+}
+
+.pp{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #282828;
+  width: 100%;
+  height: auto;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}

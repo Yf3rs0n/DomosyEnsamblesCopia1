@@ -1,0 +1,104 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(1, 1, 0, 0.7);
+}
+.page {
+	width: 700px;
+	height: auto;
+	padding: 1% 0 0;
+	margin: auto;
+}
+
+.form-register{
+    background: #fff;
+    margin: 90px auto 100px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+h2{
+	margin-top: 0;
+	background: #282828;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+	border-bottom: solid #FFDC00;	 
+}
+
+.contenedor-inputs{
+	justify-content: space-between;
+}
+
+input{
+	font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 80%;
+	height: 46%;
+    border: solid 2px rgb(0, 0, 0); 
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center;
+	
+
+}
+
+
+
+textarea{
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	background: #f2f2f2;
+	resize: none;
+	overflow: auto;
+	outline: none;
+	border: none;
+	max-height: 100px;
+	max-width: 100%;
+	margin-top: 0px;
+}
+
+
+.input-100{
+	width: 100%;
+	padding: 20px; 
+	font-size: 14px;
+
+}
+
+.btn_enviar{
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #282828;
+  width: 100%;
+  border: solid 5px #fff;
+  padding: 20px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.btn_enviar:hover{
+	cursor: pointer;
+	background: #5F5F5E;
+}
+
+.message {
+	margin-top: -20px;
+	padding: 12px;
+	color: #b3b3b3;
+	font-size: 16px;
+}
+.message a {
+  color: #282828;
+  text-decoration: none;
+}

@@ -1,0 +1,81 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+a {
+	outline: none !important;
+}
+table{
+	width: 100%;
+	background: white;
+	border-collapse: collapse;
+
+}
+
+th, td {
+	/*border: 1px solid black;*/
+	padding: 18px;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+
+thead{
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+	color: #fff;
+	background: #282828;
+	border-bottom: 3px solid #FFDC00; 
+}
+
+tr:hover td{
+ background: gray;
+ color: white;
+}
+
+tr:nth-child(even){
+	background: #DEE3E2;
+}
+
+.modal-contenido{
+	background-color:aqua;
+	width:300px;
+	padding: 10px 20px;
+	margin: 20% auto;
+	position: relative;
+}
+.modal{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:0;
+	pointer-events:none;
+	
+  }
+  #miModal:target{
+	opacity:1;
+	pointer-events:auto;
+  }
+
+  .modal-contenido2{
+	background-color:rgb(72, 99, 27);
+	width:300px;
+	padding: 10px 20px;
+	margin: 20% auto;
+	position: relative;
+}
+.modal2{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:0;
+	pointer-events:none;
+	
+  }
+  #miModal2:target{
+	opacity:1;
+	pointer-events:auto;
+  }

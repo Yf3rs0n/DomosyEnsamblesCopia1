@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+.a-ad{
+    text-decoration: none;
+    color: #999;
+}
+.a-ad:hover{
+    text-decoration: none;
+    color: #FFDC00;
+    transition: 0.2s;
+}
+
+.contenedor-ad{
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.contenedor-ad .contenido-ad{
+    position: relative;
+    margin-top: 10vh;
+    min-height: 90vh;
+}
+.contenedor-ad .contenido-ad .cards-ad{
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contenedor-ad .contenido-ad .cards-ad .card-ad{
+    width: 250px;
+    height: 150px;
+    background: white;
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 636px) {
+    .container-ad .content-ad .cards-ad{
+        justify-content: center;
+    }
+}
